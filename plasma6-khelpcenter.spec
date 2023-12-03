@@ -9,10 +9,11 @@ URL: http://kde.org/
 License: GPL
 Group: Graphical desktop/KDE
 BuildRequires: cmake(Qt6)
-BuildRequires: pkgconfig(Qt6Core)
-BuildRequires: pkgconfig(Qt6DBus)
-BuildRequires: pkgconfig(Qt6Widgets)
-BuildRequires: pkgconfig(Qt6Xml)
+BuildRequires: cmake(Qt6Core)
+BuildRequires: cmake(Qt6DBus)
+BuildRequires: cmake(Qt6Widgets)
+BuildRequires: cmake(Qt6Xml)
+BuildRequires: cmake(Qt6WebEngineWidgets)
 BuildRequires: pkgconfig(xapian-core)
 BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: cmake(KF6DocTools)
