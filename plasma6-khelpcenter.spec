@@ -8,6 +8,7 @@ Summary: KDE Plasma 6 Help Center
 URL: http://kde.org/
 License: GPL
 Group: Graphical desktop/KDE
+BuildRequires: cmake(Qt6)
 BuildRequires: pkgconfig(Qt6Core)
 BuildRequires: pkgconfig(Qt6DBus)
 BuildRequires: pkgconfig(Qt6Widgets)
