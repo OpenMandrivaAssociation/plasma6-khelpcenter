@@ -1,10 +1,10 @@
-%define git 20240217
+#define git 20240217
 %define gitbranch release/24.02
 %define gitbranchd %(echo %{gitbranch} |sed -e 's,/,-,g')
 
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 Name: plasma6-khelpcenter
-Version:	24.01.96
+Version:	24.02.0
 Release:	%{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/system/khelpcenter/-/archive/%{gitbranch}/khelpcenter-%{gitbranchd}.tar.bz2
