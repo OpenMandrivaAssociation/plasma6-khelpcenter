@@ -13,7 +13,7 @@ Source0:	https://invent.kde.org/system/khelpcenter/-/archive/%{gitbranch}/khelpc
 Source0: http://download.kde.org/%{stable}/release-service/%{version}/src/khelpcenter-%{version}.tar.xz
 %endif
 Summary: KDE Plasma 6 Help Center
-URL: http://kde.org/
+URL: https://kde.org/
 License: GPL
 Group: Graphical desktop/KDE
 BuildRequires: cmake(Qt6)
